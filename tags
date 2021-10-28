@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GRID	SVS.py	/^GRID = gridclass()$/;"	v
+GRID_SIDE_MAX	SVS.py	/^GRID_SIDE_MAX = 8 #a constant for oob and win conditions$/;"	v
+HEIGHT	SVS.py	/^HEIGHT = 600 #window dimensions$/;"	v
+InitWindow	SVS.py	/^    def InitWindow(self) -> None: #main window startup procedure$/;"	m	class:w
+QApplication	SVS.py	/^from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QWidget, QGridLayout$/;"	i
+QBrush	SVS.py	/^from PyQt5.QtGui import QFont, QPainter, QBrush, QPen, QTextFormat$/;"	i
+QFont	SVS.py	/^from PyQt5.QtGui import QFont, QPainter, QBrush, QPen, QTextFormat$/;"	i
+QGridLayout	SVS.py	/^from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QWidget, QGridLayout$/;"	i
+QLabel	SVS.py	/^from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QWidget, QGridLayout$/;"	i
+QMainWindow	SVS.py	/^from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QWidget, QGridLayout$/;"	i
+QPainter	SVS.py	/^from PyQt5.QtGui import QFont, QPainter, QBrush, QPen, QTextFormat$/;"	i
+QPen	SVS.py	/^from PyQt5.QtGui import QFont, QPainter, QBrush, QPen, QTextFormat$/;"	i
+QTextFormat	SVS.py	/^from PyQt5.QtGui import QFont, QPainter, QBrush, QPen, QTextFormat$/;"	i
+QWidget	SVS.py	/^from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel, QWidget, QGridLayout$/;"	i
+Qt	SVS.py	/^from PyQt5.QtCore import Qt, center, reset, right$/;"	i
+QtGui	SVS.py	/^from PyQt5 import QtGui$/;"	i
+STEPS_COUNT	SVS.py	/^STEPS_COUNT = 0 #total steps$/;"	v
+WIDTH	SVS.py	/^WIDTH = 600$/;"	v
+__init__	SVS.py	/^    def __init__(self) -> None:$/;"	m	class:grid_label
+__init__	SVS.py	/^    def __init__(self) -> None:$/;"	m	class:gridclass
+__init__	SVS.py	/^    def __init__(self) -> None:$/;"	m	class:w
+__init__	SVS.py	/^    def __init__(self, y: int, x: int) -> None:$/;"	m	class:cell
+app	SVS.py	/^app = QApplication(sys.argv) # < initiates application, allowing for the GUI to be displayed$/;"	v
+cell	SVS.py	/^class cell(): #cell class description$/;"	c
+center	SVS.py	/^from PyQt5.QtCore import Qt, center, reset, right$/;"	i
+check_column	SVS.py	/^    def check_column(self) -> bool: #checks column$/;"	m	class:cell
+check_constraint	SVS.py	/^    def check_constraint(self) -> bool:$/;"	m	class:cell
+check_metacell	SVS.py	/^    def check_metacell(self) -> bool: #checks metacell$/;"	m	class:cell
+check_row	SVS.py	/^    def check_row(self) -> bool: #checks row$/;"	m	class:cell
+grid_label	SVS.py	/^class grid_label(QLabel): #labels, that are used to show numbers within the grid$/;"	c
+grid_reset	SVS.py	/^    def grid_reset(self) -> None: #resets the grid, and fills it with 81 cell objects$/;"	m	class:gridclass
+gridclass	SVS.py	/^class gridclass(): #grid, central element, containing 81 cells in a 9x9 square pattern$/;"	c
+highlight_current	SVS.py	/^    def highlight_current(self) -> None: #sets style for the active cell$/;"	m	class:cell
+highlight_next	SVS.py	/^    def highlight_next(self) -> None: #sets style for the cell that will be active during the next step$/;"	m	class:cell
+highlight_unchangeble	SVS.py	/^    def highlight_unchangeble(self) -> None: #sets style for the unchangeble cells$/;"	m	class:cell
+imp_from_list	SVS.py	/^    def imp_from_list(self, l:list) -> None: #import values from 9x9 integer list$/;"	m	class:gridclass
+imp_grid	SVS.py	/^imp_grid = [$/;"	v
+inactive	SVS.py	/^    def inactive(self) -> int: #currently unused, WIP$/;"	m	class:cell
+increment_value	SVS.py	/^    def increment_value(self) -> bool:$/;"	m	class:cell
+keyPressEvent	SVS.py	/^    def keyPressEvent(self, e) -> None: #events for when a key is pressed$/;"	m	class:w
+next_cell	SVS.py	/^    def next_cell(self, direction: int) -> None:$/;"	m	class:gridclass
+not_itself	SVS.py	/^    def not_itself(self,cell:object) -> bool: #checks if object is self$/;"	m	class:cell
+overflow_rectification	SVS.py	/^    def overflow_rectification(self) -> None: #converts linear movement through a line into cyclic movement through a 9x9 plane$/;"	m	class:gridclass
+paintEvent	SVS.py	/^    def paintEvent(self,event) -> None: #2 vertical and 2 horizontal lines subdividing the 9x9 grid into 9 squares$/;"	m	class:w
+refresh_cell	SVS.py	/^    def refresh_cell(self, y: int,x: int) -> None: #refreshes one cell and reassigns it to the layout assigned to the gridclass$/;"	m	class:gridclass
+refresh_grid	SVS.py	/^    def refresh_grid(self) -> None: #refreshed full grid of labels and assigns them to the layout assigned to the gridclass$/;"	m	class:gridclass
+reset	SVS.py	/^from PyQt5.QtCore import Qt, center, reset, right$/;"	i
+reset_inactivity	SVS.py	/^    def reset_inactivity(self) -> None: #currently unused, WIP$/;"	m	class:cell
+reset_solving	SVS.py	/^    def reset_solving(self) -> None: #<-------------------------------------------------------------------------WARNING! redundant revisit later$/;"	m	class:gridclass
+right	SVS.py	/^from PyQt5.QtCore import Qt, center, reset, right$/;"	i
+set_default	SVS.py	/^    def set_default(self) -> None: #sets a default style for all of the cells$/;"	m	class:cell
+set_label	SVS.py	/^    def set_label(self) -> None: #constructs visuals of the label$/;"	m	class:cell
+set_label_text	SVS.py	/^    def set_label_text(self) -> None: #assigns a string character to the associated label converted from the value of the cell$/;"	m	class:cell
+set_solving_current	SVS.py	/^    def set_solving_current(self) -> None: #stores the position of the currently solved cell in the grid$/;"	m	class:gridclass
+skip_unchangable	SVS.py	/^    def skip_unchangable(self, momentum: int) -> None: #recursively calls movement function(next_cell) if current cell is unchangable$/;"	m	class:gridclass
+solve	SVS.py	/^    def solve(self) -> bool:$/;"	m	class:cell
+step	SVS.py	/^    def step(self) -> bool:$/;"	m	class:gridclass
+style_current_right	SVS.py	/^    style_current_right = 'QLabel {background-color: #25aa25; color: #000000;}'$/;"	v	class:cell
+style_current_wrong	SVS.py	/^    style_current_wrong = 'QLabel {background-color: #aa2525; color: #ffffff;}'$/;"	v	class:cell
+style_default	SVS.py	/^    style_default = 'QLabel {background-color: #252525; color: #ffffff;}'$/;"	v	class:cell
+style_next	SVS.py	/^    style_next = 'QLabel {background-color: #555555; color: #ff2525;}'$/;"	v	class:cell
+style_not_changeble	SVS.py	/^    style_not_changeble = 'QLabel {background-color: #151515; color: #bbbbbb;}'$/;"	v	class:cell
+sys	SVS.py	/^import sys$/;"	i
+value_check	SVS.py	/^    def value_check(self,cell:object) -> bool: #checks if another cell has same value$/;"	m	class:cell
+w	SVS.py	/^class w(QMainWindow): #class description for the main window object$/;"	c
+window	SVS.py	/^window = w()$/;"	v
